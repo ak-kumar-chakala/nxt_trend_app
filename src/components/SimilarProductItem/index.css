@@ -1,0 +1,42 @@
+.similar-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.title {
+  font-weight: bold;
+  color: black;
+}
+
+.brand {
+  color: lightslategray;
+  font-weight: bold;
+}
+.price {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 7px;
+}
+.price-rating-container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.li-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.rating-container {
+  background-color: rgb(28, 97, 226);
+  height: 40px;
+  width: 60px;
+  color: white;
+  text-align: center;
+}
